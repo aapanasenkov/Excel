@@ -22,7 +22,7 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(),
         new HTMLWebpackPlugin({
-            template: 'index.html'
+            template: 'index.html' 
         }),
         new CopyPlugin([
             {
